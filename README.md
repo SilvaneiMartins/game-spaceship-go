@@ -17,26 +17,19 @@ Game desenvolvido na linguagem go, será um game de espaçonave que tira e elimi
 
 ```bash
     # Clone o Repositório:
-    $ git clone https://github.com/SilvaneiMartins/chess-multiplayer
+    $ git clone https://github.com/SilvaneiMartins/game-spaceship-go
 
     # Entre no Diretório:
-    cd chess-multiplayer
+    cd game-spaceship-go
 
-     # Instale o python, acesso o site e instala a versão mais recente:
-    $ https://www.python.org
+     # Pagina do framework do game
+    $ https://ebitengine.org/
 
-    # Instale o pip, acesso o site e instala a versão mais recente:
-    $ https://pypi.org/project/pip/
-    $ python -m pip install --upgrade pip
+    # Instalar framework game para go:
+    $ go get github.com/hajimehoshi/ebiten/v2
 
-    # Instale o pygame:
-    $ pip install pygame
-
-    # Inicie o Projeto no MacBook e Linux:
-    $ python3 src/main.py
-
-    # Inicie o Projeto no Windows:
-    $ python src/main.py
+    # Executar o game:
+    $ go run main.go
 ```
 
 ## Licença de uso
