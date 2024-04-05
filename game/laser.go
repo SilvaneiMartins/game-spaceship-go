@@ -41,3 +41,14 @@ func (l *Laser) Draw(screen *ebiten.Image) {
 	// Desenha a imagem na tela do game.
 	screen.DrawImage(l.image, op)
 }
+
+func (l *Laser) Collider() Rect {
+	bouds := l.image.Bounds()
+
+	return NewRect(
+		l.position.X,
+		l.position.Y,
+		float64(bouds.Dx()),
+		float64(bouds.Dy()),
+	)
+}

@@ -8,10 +8,11 @@
 
 Game desenvolvido na linguagem go, será um game de espaçonave que tira e elimina outras espaçonave para acumular pontos.
 
-<!-- <p align="center">
-    <a href="https://imgur.com/ZEutfqp"><img src="https://i.imgur.com/ZEutfqp.png" title="source: imgur.com" /></a>
+<p align="center">
+    <a href="https://imgur.com/DANeAoG"><img src="https://i.imgur.com/DANeAoG.png" title="source: imgur.com" /></a>
     <br />
-</p> -->
+    <a href="https://imgur.com/O8HYbXE"><img src="https://i.imgur.com/O8HYbXE.png" title="source: imgur.com" /></a>
+</p>
 
 ## Executar o game
 

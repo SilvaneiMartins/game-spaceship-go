@@ -70,3 +70,14 @@ func (p *Player) Draw(screen *ebiten.Image) {
 	// Desenha a imagem na tela do game.
 	screen.DrawImage(p.image, op)
 }
+
+func (p *Player) Collider() Rect {
+	bouds := p.image.Bounds()
+
+	return NewRect(
+		p.position.X,
+		p.position.Y,
+		float64(bouds.Dx()),
+		float64(bouds.Dy()),
+	)
+}
